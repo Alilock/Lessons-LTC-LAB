@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 500vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.box-2 .box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+    /* margin-left: 10px;
+    margin-top: 30px !important; */
+    margin: 0 auto
+}
+
+.box-4 {
+    background-color: coral;
+    width: 50vw;
+    /* height: 100vh */
+    height: 100px;
+}
+
+.wrapper {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin: 30px auto;
+    /* padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px; */
+    padding: 100px;
+    /* box-sizing: content-box; */
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    overflow: scroll;
+    /* margin: 40px 20px 30px */
+    /* border-width: 10px;
+    border-color: black;
+    border-style: ridge; */
+    border: 5px solid black;
+    /* border-radius: 50%; */
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    outline-width: 4px;
+    outline-color: 5px;
+    outline-style: dotted;
+    outline-offset: 10px;
+
+}
+
+.box-5 {
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    background: green;
+    clip-path: polygon(29% 20%, 71% 45%, 26% 63%, 55% 16%, 55% 83%, 57% 1%);
+}
+
+
+.box-6 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background: rgb(75, 30, 130);
+}
+
+.box-7 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background: green;
+}
+
+.inline {
+    /* height: 300px; */
+    background-color: red;
+    /* margin-left: 30px; */
+
+}
+
+.text-box {
+    width: 500px;
+    height: 500px;
+    background-color: greenyellow;
+    margin: 0 auto;
+    box-shadow: 35px -7px 72px 11px rgba(0, 0, 0, 0.75);
+
+}
+
+.text-box .text {
+    /* text-align: center; */
+    text-align: justify;
+    text-indent: 1px;
+    /* text-decoration: overline; */
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; */
+    /* letter-spacing: 3px; */
+    line-height: 20px;
+}
+
+.text-box a {
+    text-decoration: none;
+}
+
+.groupno {
+    text-shadow: -1px -1px 1px red;
+}
+
+/* .wrapper p {} */

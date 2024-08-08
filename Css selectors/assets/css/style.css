@@ -1,0 +1,134 @@
+/* div {
+    color: blue
+} */
+
+/* p {
+    color: red
+} */
+
+/* .parag {
+    color: green
+}
+
+.hero {
+    background-color: aqua;
+    border: 1px dotted black
+}
+
+.parag.bold {
+    font-weight: 700;
+}
+
+#card {
+    background-color: yellowgreen;
+} */
+
+
+/* #testid {
+    background-color: red;
+} */
+
+/* .testclass {
+    background-color: green;
+} */
+
+/* div {
+    background-color: blue;
+} */
+
+/* 
+.testclass .testparag {
+    color: brown
+} */
+
+/* div .desc {
+    color: red
+} */
+
+
+/* span,
+p {
+    color: aqua
+} */
+
+/* 
+div span {
+    color: red
+} */
+
+/* .cards>.parag {
+    background-color: red;
+} */
+
+
+/* [href=""] {
+    background-color: red;
+} */
+/* [target="_blank"] {
+    background-color: brown;
+} */
+
+
+/* input:checked {
+    width: 25px;
+    height: 25px;
+    color: red
+}
+
+input:focus {
+    border: 3px dotted black;
+} */
+
+/* .list {
+    background-color: aqua;
+} */
+
+/* 
+li:first-child {
+    color: red
+}
+
+li:last-child {
+    color: green
+} */
+
+/* li:nth-child(odd) {
+    background-color: red
+}
+
+li:nth-child(even) {
+    background-color: green;
+} */
+
+/* li:nth-child(5) {
+    background-color: red;
+} */
+
+
+/* .emailinput:invalid {
+    border-color: red;
+    background-color: rgb(210, 97, 97);
+}
+
+.emailinput:valid {
+    border-color: green;
+    background-color: rgb(144, 210, 97);
+}
+
+.emailinput::placeholder {
+    color: blue
+} */
+
+
+.card {
+    width: 25%;
+    /* background-color: blueviolet; */
+}
+
+.card:hover {
+    /* background-color: aqua; */
+}
+
+.card .parag::first-line {
+    color: yellow;
+}

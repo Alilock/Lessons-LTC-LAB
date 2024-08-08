@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="" method="get" novalidate>
+        <!-- id idetifier -->
+        <!-- class Qruplaşdırmaq üçün istifadə olunur -->
+        <div>
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" autofocus placeholder="Please type your name" name="name"
+                class="redborderinput" autocomplete="off">
+        </div>
+        <div>
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" name="email" placeholder="Please type your email" readonly required>
+        </div>
+        <div>
+            <label for="pw">Password</label> <br>
+            <input type="password" minlength="8" id="pw" required placeholder="Please type your password">
+        </div>
+        <div>
+            <label for="cpw">Confirm Password</label> <br>
+            <input type="password" minlength="8" id="cpw" placeholder="type your confirm password">
+        </div>
+        <div>
+            <p>Choose your hobbies</p>
+            <div>
+                <input type="checkbox" id="football" />
+                <label for="football">Football</label>
+            </div>
+            <div>
+                <input type="checkbox" id="movie" />
+                <label for="movie">Movie</label>
+            </div>
+            <div>
+                <input type="checkbox" id="music" />
+                <label for="music">Music</label>
+            </div>
+        </div>
+        <div>
+            <p>Choose your Gender</p>
+            <div>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label> <br>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label> <br>
+                <input type="radio" id="other" name="gender">
+                <label for="other">Other</label>
+            </div>
+        </div>
+        <div>
+            <label for="age">Age</label> <br>
+            <input type="number" min="0" max="150" step="5" name="age" placeholder="type your age">
+        </div>
+        <div>
+            <input id="range" max="200" min="10" type="range" name="range">
+
+        </div>
+        <div>
+            <input type="reset">
+        </div>
+        <div>
+            <label for="search">Search</label> <br>
+            <input type="search" id="search" name="search">
+        </div>
+        <div>
+            <label for="phone">Phone Number</label> <br>
+            <input type="tel" name="phoneNumber" id="phone" pattern="[0-9]{3}[0-9]{2}[0-9]{2}">
+        </div>
+        <div>
+            <input type="color">
+        </div>
+
+        <div>
+            <label for="date">Date</label>
+            <input type="datetime-local" id="date" name="date"> <br>
+            <input type="date"> <br>
+            <input type="time">
+            <input type="week">
+            <input type="month">
+        </div>
+        <div>
+            <label for="url">url</label>
+            <input type="url" id="url" name="url">
+        </div>
+
+        <div>
+            <label for="file">File</label>
+            <input type="file" id="file" accept="image/png" name="file">
+        </div>
+        <div>
+            <input type="hidden" value="salam123" id="hiddeninput">
+        </div>
+        <div>
+            <input type="search" list="datalist" id="search">
+            <datalist id="datalist">
+                <option value="Azerbaijan">
+                <option value="Turkey">
+                <option value="Russia">
+                <option value="USA">
+            </datalist>
+        </div>
+        <button type="submit" style="margin-top: 20px;">Submit</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+/* HEX code
+    length 3-6 {0-9}{a-f}
+#000000   */
+
+
+/* RGB
+  rgb(255,255,255)  
+*/
+/* .wrapper {
+    width: 500px;
+    height: 500px;
+    background-color: #650a9a;
+} */
+/* .wrapper {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 0, 0, 0.09)
+}
+
+.wrapper:hover {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 0, 0, 0.12)
+}
+
+.wrapper .desc {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+} */
+
+body {
+    height: 500vh;
+}
+
+.imagewrapper {
+    width: 100%;
+    background-color: aqua;
+    border: 7px dotted black;
+    height: 800px;
+    background-image: url(../images/sunrise-sunset-facts.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-clip: padding-box;
+    background-attachment: fixed;
+
+}
