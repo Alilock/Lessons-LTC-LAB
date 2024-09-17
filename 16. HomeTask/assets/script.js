@@ -77,12 +77,10 @@ function calculateTotal() {
 
 }
 
-// function removeFromBasket(id) {
-//     const newBasket = basket.filter(e => {
-//         return e.id != id
-//     })
+function removeFromBasket(id) {
+    const newBasket = basket.filter(e => {
+        return e.id != id
+    })
 
-//     newBasket.forEach(e => {
-//         console.log(`Adı: ${e.name}, Qiymət: ${e.price} Say:${e.count}`);
-//     })
-// }
+    basket = newBasket
+}
