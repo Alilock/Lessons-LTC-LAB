@@ -43,7 +43,7 @@ function addToBasket(product) {
                 const newProduct = {
                     id: product.id,
                     name: product.name,
-                    price: product.price,
+                    price: product.price * (product.count + 1),
                     count: product.count += 1,
                 }
                 const newBasket = basket.filter(e => e.id != product.id)
