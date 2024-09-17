@@ -22,7 +22,6 @@
 
 // let headings = document.querySelectorAll("h1")
 
-
 // headings.forEach((h1) => {
 //     console.log(h1);
 
