@@ -99,8 +99,6 @@ body.addEventListener("keyup", e => {
     if (e.key == "Enter") {
         //some operations
     }
-
-
 })
 
 
