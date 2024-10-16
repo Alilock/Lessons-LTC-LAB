@@ -1,0 +1,27 @@
+.container {
+    .row {
+        display: flex;
+        justify-content: center;
+        gap: 200px
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        border: 1px solid #d9cdcd;
+        border-radius: 20px;
+        padding: 10px;
+
+    }
+
+    .done {
+        background-color: red;
+        height: 300px;
+        width: 200px;
+    }
+
+    /* .todo {
+        background-color: red;
+    } */
+}

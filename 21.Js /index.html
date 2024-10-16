@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/bootsrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Drag & Drop</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="to-do-list col-lg-6 dropZone">
+                <h1>To Do List</h1>
+                <div class="createItem d-flex">
+                    <input type="text" placeholder="Please type item" class="form-control" id="create">
+                    <button type="button" class="btn btn-outline-success createBtn">Create</button>
+                </div>
+                <ul class="list-unstyled items">
+                    <!-- <li class="my-2 list-group-item" draggable="true">Item</li> -->
+                </ul>
+            </div>
+            <div class="in-progress col-lg-6 dropZone">
+                <h1>In Progress</h1>
+                <ul class="list-unstyled items">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt=""> -->
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
